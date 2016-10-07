@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="PhysicsEngine" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/nino/CppProjects/Physics Engine/build-PhysicsEngine-Desktop-Default" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/nino/CppProjects/Physics\ Engine/build-PhysicsEngine-Desktop-Default/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/nino/CppProjects/Physics\ Engine/build-PhysicsEngine-Desktop-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/nino/CppProjects/Physics\ Engine/build-PhysicsEngine-Desktop-Default/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/nino/CppProjects/Physics\ Engine/build-PhysicsEngine-Desktop-Default/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/home/nino/CppProjects/Physics Engine/build-PhysicsEngine-Desktop-Default" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/nino/CppProjects/Physics\ Engine/build-PhysicsEngine-Desktop-Default/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/nino/CppProjects/Physics\ Engine/build-PhysicsEngine-Desktop-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/nino/CppProjects/Physics\ Engine/build-PhysicsEngine-Desktop-Default/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/nino/CppProjects/Physics\ Engine/build-PhysicsEngine-Desktop-Default/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="edit_cache">
+         <Option working_dir="/home/nino/CppProjects/Physics Engine/build-PhysicsEngine-Desktop-Default" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/nino/CppProjects/Physics\ Engine/build-PhysicsEngine-Desktop-Default/Makefile&quot;  VERBOSE=1 edit_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/nino/CppProjects/Physics\ Engine/build-PhysicsEngine-Desktop-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/nino/CppProjects/Physics\ Engine/build-PhysicsEngine-Desktop-Default/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/nino/CppProjects/Physics\ Engine/build-PhysicsEngine-Desktop-Default/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="PhysicsEngine">
+         <Option output="/home/nino/CppProjects/Physics Engine/build-PhysicsEngine-Desktop-Default/PhysicsEngine" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/nino/CppProjects/Physics Engine/build-PhysicsEngine-Desktop-Default" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/nino/CppProjects/Physics Engine/PhysicsEngine/src" />
+            <Add directory="/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/AIComponents" />
+            <Add directory="/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GameObject" />
+            <Add directory="/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GraphicsComponents" />
+            <Add directory="/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/PhysicsComponents" />
+            <Add directory="/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/PhysicsComponents/Collider" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../include/c++/6.1.1" />
+            <Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../include/c++/6.1.1/backward" />
+            <Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../include/c++/6.1.1/x86_64-pc-linux-gnu" />
+            <Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/include" />
+            <Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/nino/CppProjects/Physics\ Engine/build-PhysicsEngine-Desktop-Default/Makefile&quot;  VERBOSE=1 PhysicsEngine" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/nino/CppProjects/Physics\ Engine/build-PhysicsEngine-Desktop-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/nino/CppProjects/Physics\ Engine/build-PhysicsEngine-Desktop-Default/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/nino/CppProjects/Physics\ Engine/build-PhysicsEngine-Desktop-Default/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="PhysicsEngine/fast">
+         <Option output="/home/nino/CppProjects/Physics Engine/build-PhysicsEngine-Desktop-Default/PhysicsEngine" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/nino/CppProjects/Physics Engine/build-PhysicsEngine-Desktop-Default" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/nino/CppProjects/Physics Engine/PhysicsEngine/src" />
+            <Add directory="/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/AIComponents" />
+            <Add directory="/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GameObject" />
+            <Add directory="/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GraphicsComponents" />
+            <Add directory="/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/PhysicsComponents" />
+            <Add directory="/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/PhysicsComponents/Collider" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../include/c++/6.1.1" />
+            <Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../include/c++/6.1.1/backward" />
+            <Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/../../../../include/c++/6.1.1/x86_64-pc-linux-gnu" />
+            <Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/include" />
+            <Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/nino/CppProjects/Physics\ Engine/build-PhysicsEngine-Desktop-Default/Makefile&quot;  VERBOSE=1 PhysicsEngine/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/nino/CppProjects/Physics\ Engine/build-PhysicsEngine-Desktop-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/nino/CppProjects/Physics\ Engine/build-PhysicsEngine-Desktop-Default/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/nino/CppProjects/Physics\ Engine/build-PhysicsEngine-Desktop-Default/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/nino/CppProjects/Physics Engine/PhysicsEngine/main.cpp">
+         <Option target="PhysicsEngine"/>
+      </Unit>
+      <Unit filename="/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/AIComponents/inputcomponent.cpp">
+         <Option target="PhysicsEngine"/>
+      </Unit>
+      <Unit filename="/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/AIComponents/inputcomponent.h">
+         <Option target="PhysicsEngine"/>
+      </Unit>
+      <Unit filename="/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GameObject/gameobject.cpp">
+         <Option target="PhysicsEngine"/>
+      </Unit>
+      <Unit filename="/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GameObject/gameobject.h">
+         <Option target="PhysicsEngine"/>
+      </Unit>
+      <Unit filename="/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GameObject/transform.cpp">
+         <Option target="PhysicsEngine"/>
+      </Unit>
+      <Unit filename="/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GameObject/transform.h">
+         <Option target="PhysicsEngine"/>
+      </Unit>
+      <Unit filename="/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GraphicsComponents/cubegraphics.cpp">
+         <Option target="PhysicsEngine"/>
+      </Unit>
+      <Unit filename="/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GraphicsComponents/cubegraphics.h">
+         <Option target="PhysicsEngine"/>
+      </Unit>
+      <Unit filename="/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GraphicsComponents/graphicscomponent.cpp">
+         <Option target="PhysicsEngine"/>
+      </Unit>
+      <Unit filename="/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GraphicsComponents/graphicscomponent.h">
+         <Option target="PhysicsEngine"/>
+      </Unit>
+      <Unit filename="/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GraphicsComponents/graphicsfactory.cpp">
+         <Option target="PhysicsEngine"/>
+      </Unit>
+      <Unit filename="/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GraphicsComponents/graphicsfactory.h">
+         <Option target="PhysicsEngine"/>
+      </Unit>
+      <Unit filename="/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GraphicsComponents/rectangle.cpp">
+         <Option target="PhysicsEngine"/>
+      </Unit>
+      <Unit filename="/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GraphicsComponents/rectangle.h">
+         <Option target="PhysicsEngine"/>
+      </Unit>
+      <Unit filename="/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GraphicsComponents/sphere.cpp">
+         <Option target="PhysicsEngine"/>
+      </Unit>
+      <Unit filename="/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GraphicsComponents/sphere.h">
+         <Option target="PhysicsEngine"/>
+      </Unit>
+      <Unit filename="/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GraphicsComponents/trianglegraphics.cpp">
+         <Option target="PhysicsEngine"/>
+      </Unit>
+      <Unit filename="/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GraphicsComponents/trianglegraphics.h">
+         <Option target="PhysicsEngine"/>
+      </Unit>
+      <Unit filename="/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/PhysicsComponents/Collider/collider.cpp">
+         <Option target="PhysicsEngine"/>
+      </Unit>
+      <Unit filename="/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/PhysicsComponents/Collider/collider.h">
+         <Option target="PhysicsEngine"/>
+      </Unit>
+      <Unit filename="/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/PhysicsComponents/Collider/spherecollider.cpp">
+         <Option target="PhysicsEngine"/>
+      </Unit>
+      <Unit filename="/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/PhysicsComponents/Collider/spherecollider.h">
+         <Option target="PhysicsEngine"/>
+      </Unit>
+      <Unit filename="/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/PhysicsComponents/physicscomponent.cpp">
+         <Option target="PhysicsEngine"/>
+      </Unit>
+      <Unit filename="/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/PhysicsComponents/physicscomponent.h">
+         <Option target="PhysicsEngine"/>
+      </Unit>
+      <Unit filename="/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/PhysicsComponents/rigidbody.cpp">
+         <Option target="PhysicsEngine"/>
+      </Unit>
+      <Unit filename="/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/PhysicsComponents/rigidbody.h">
+         <Option target="PhysicsEngine"/>
+      </Unit>
+      <Unit filename="/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/world.cpp">
+         <Option target="PhysicsEngine"/>
+      </Unit>
+      <Unit filename="/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/world.h">
+         <Option target="PhysicsEngine"/>
+      </Unit>
+      <Unit filename="/home/nino/CppProjects/Physics Engine/PhysicsEngine/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,208 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/nino/CppProjects/Physics Engine/PhysicsEngine/main.cpp
+GL/gl.h
+-
+GL/glu.h
+-
+GL/glut.h
+-
+world.h
+/home/nino/CppProjects/Physics Engine/PhysicsEngine/world.h
+graphicsfactory.h
+/home/nino/CppProjects/Physics Engine/PhysicsEngine/graphicsfactory.h
+iostream
+-
+
+/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/AIComponents/inputcomponent.cpp
+inputcomponent.h
+/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/AIComponents/inputcomponent.h
+
+/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/AIComponents/inputcomponent.h
+
+/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GameObject/gameobject.cpp
+gameobject.h
+/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GameObject/gameobject.h
+iostream
+-
+
+/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GameObject/gameobject.h
+inputcomponent.h
+/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GameObject/inputcomponent.h
+graphicscomponent.h
+/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GameObject/graphicscomponent.h
+physicscomponent.h
+/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GameObject/physicscomponent.h
+transform.h
+/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GameObject/transform.h
+memory
+-
+
+/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GameObject/transform.cpp
+transform.h
+/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GameObject/transform.h
+
+/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GameObject/transform.h
+glm/vec3.hpp
+-
+
+/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GraphicsComponents/cubegraphics.cpp
+cubegraphics.h
+/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GraphicsComponents/cubegraphics.h
+
+/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GraphicsComponents/cubegraphics.h
+graphicscomponent.h
+/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GraphicsComponents/graphicscomponent.h
+GL/glut.h
+-
+GL/gl.h
+-
+glm/vec3.hpp
+-
+
+/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GraphicsComponents/graphicscomponent.cpp
+graphicscomponent.h
+/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GraphicsComponents/graphicscomponent.h
+
+/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GraphicsComponents/graphicscomponent.h
+transform.h
+/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GraphicsComponents/transform.h
+
+/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GraphicsComponents/graphicsfactory.cpp
+graphicsfactory.h
+/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GraphicsComponents/graphicsfactory.h
+
+/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GraphicsComponents/graphicsfactory.h
+graphicscomponent.h
+/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GraphicsComponents/graphicscomponent.h
+sphere.h
+/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GraphicsComponents/sphere.h
+cubegraphics.h
+/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GraphicsComponents/cubegraphics.h
+trianglegraphics.h
+/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GraphicsComponents/trianglegraphics.h
+memory
+/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GraphicsComponents/memory
+
+/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GraphicsComponents/rectangle.cpp
+rectangle.h
+/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GraphicsComponents/rectangle.h
+
+/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GraphicsComponents/rectangle.h
+graphicscomponent.h
+/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GraphicsComponents/graphicscomponent.h
+GL/glut.h
+-
+GL/gl.h
+-
+
+/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GraphicsComponents/sphere.cpp
+sphere.h
+/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GraphicsComponents/sphere.h
+
+/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GraphicsComponents/sphere.h
+graphicscomponent.h
+/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GraphicsComponents/graphicscomponent.h
+GL/glut.h
+-
+GL/gl.h
+-
+glm/vec3.hpp
+-
+iostream
+-
+
+/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GraphicsComponents/trianglegraphics.cpp
+trianglegraphics.h
+/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GraphicsComponents/trianglegraphics.h
+
+/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GraphicsComponents/trianglegraphics.h
+graphicscomponent.h
+/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GraphicsComponents/graphicscomponent.h
+GL/glut.h
+-
+GL/gl.h
+-
+glm/vec3.hpp
+-
+
+/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/PhysicsComponents/Collider/collider.cpp
+collider.h
+/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/PhysicsComponents/Collider/collider.h
+
+/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/PhysicsComponents/Collider/collider.h
+glm/vec3.hpp
+-
+
+/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/PhysicsComponents/Collider/spherecollider.cpp
+spherecollider.h
+/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/PhysicsComponents/Collider/spherecollider.h
+
+/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/PhysicsComponents/Collider/spherecollider.h
+collider.h
+/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/PhysicsComponents/Collider/collider.h
+
+/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/PhysicsComponents/physicscomponent.cpp
+physicscomponent.h
+/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/PhysicsComponents/physicscomponent.h
+
+/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/PhysicsComponents/physicscomponent.h
+rigidbody.h
+/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/PhysicsComponents/rigidbody.h
+collider.h
+/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/PhysicsComponents/collider.h
+vector
+/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/PhysicsComponents/vector
+memory
+-
+
+/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/PhysicsComponents/rigidbody.cpp
+rigidbody.h
+/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/PhysicsComponents/rigidbody.h
+
+/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/PhysicsComponents/rigidbody.h
+transform.h
+/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/PhysicsComponents/transform.h
+vector
+-
+cmath
+-
+glm/vec3.hpp
+-
+glm/geometric.hpp
+-
+iostream
+-
+
+/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/world.cpp
+world.h
+/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/world.h
+
+/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/world.h
+vector
+/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/vector
+gameobject.h
+/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/gameobject.h
+spherecollider.h
+/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/spherecollider.h
+GL/gl.h
+-
+glm/vec3.hpp
+-
+glm/geometric.hpp
+-
+vector
+-
+utility
+-
+iostream
+-
+typeinfo
+-
+
