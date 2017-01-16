@@ -129,33 +129,81 @@ CMakeFiles/PhysicsEngine.dir/src/world.cpp.o.provides: CMakeFiles/PhysicsEngine.
 CMakeFiles/PhysicsEngine.dir/src/world.cpp.o.provides.build: CMakeFiles/PhysicsEngine.dir/src/world.cpp.o
 
 
-CMakeFiles/PhysicsEngine.dir/src/AIComponents/inputcomponent.cpp.o: CMakeFiles/PhysicsEngine.dir/flags.make
-CMakeFiles/PhysicsEngine.dir/src/AIComponents/inputcomponent.cpp.o: /home/nino/CppProjects/Physics\ Engine/PhysicsEngine/src/AIComponents/inputcomponent.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nino/CppProjects/Physics Engine/build-PhysicsEngine-Desktop-Default/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/PhysicsEngine.dir/src/AIComponents/inputcomponent.cpp.o"
-	/usr/bin/g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PhysicsEngine.dir/src/AIComponents/inputcomponent.cpp.o -c "/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/AIComponents/inputcomponent.cpp"
+CMakeFiles/PhysicsEngine.dir/src/AIComponents/followline.cpp.o: CMakeFiles/PhysicsEngine.dir/flags.make
+CMakeFiles/PhysicsEngine.dir/src/AIComponents/followline.cpp.o: /home/nino/CppProjects/Physics\ Engine/PhysicsEngine/src/AIComponents/followline.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nino/CppProjects/Physics Engine/build-PhysicsEngine-Desktop-Default/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/PhysicsEngine.dir/src/AIComponents/followline.cpp.o"
+	/usr/bin/g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PhysicsEngine.dir/src/AIComponents/followline.cpp.o -c "/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/AIComponents/followline.cpp"
 
-CMakeFiles/PhysicsEngine.dir/src/AIComponents/inputcomponent.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PhysicsEngine.dir/src/AIComponents/inputcomponent.cpp.i"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/AIComponents/inputcomponent.cpp" > CMakeFiles/PhysicsEngine.dir/src/AIComponents/inputcomponent.cpp.i
+CMakeFiles/PhysicsEngine.dir/src/AIComponents/followline.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PhysicsEngine.dir/src/AIComponents/followline.cpp.i"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/AIComponents/followline.cpp" > CMakeFiles/PhysicsEngine.dir/src/AIComponents/followline.cpp.i
 
-CMakeFiles/PhysicsEngine.dir/src/AIComponents/inputcomponent.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PhysicsEngine.dir/src/AIComponents/inputcomponent.cpp.s"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/AIComponents/inputcomponent.cpp" -o CMakeFiles/PhysicsEngine.dir/src/AIComponents/inputcomponent.cpp.s
+CMakeFiles/PhysicsEngine.dir/src/AIComponents/followline.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PhysicsEngine.dir/src/AIComponents/followline.cpp.s"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/AIComponents/followline.cpp" -o CMakeFiles/PhysicsEngine.dir/src/AIComponents/followline.cpp.s
 
-CMakeFiles/PhysicsEngine.dir/src/AIComponents/inputcomponent.cpp.o.requires:
+CMakeFiles/PhysicsEngine.dir/src/AIComponents/followline.cpp.o.requires:
 
-.PHONY : CMakeFiles/PhysicsEngine.dir/src/AIComponents/inputcomponent.cpp.o.requires
+.PHONY : CMakeFiles/PhysicsEngine.dir/src/AIComponents/followline.cpp.o.requires
 
-CMakeFiles/PhysicsEngine.dir/src/AIComponents/inputcomponent.cpp.o.provides: CMakeFiles/PhysicsEngine.dir/src/AIComponents/inputcomponent.cpp.o.requires
-	$(MAKE) -f CMakeFiles/PhysicsEngine.dir/build.make CMakeFiles/PhysicsEngine.dir/src/AIComponents/inputcomponent.cpp.o.provides.build
-.PHONY : CMakeFiles/PhysicsEngine.dir/src/AIComponents/inputcomponent.cpp.o.provides
+CMakeFiles/PhysicsEngine.dir/src/AIComponents/followline.cpp.o.provides: CMakeFiles/PhysicsEngine.dir/src/AIComponents/followline.cpp.o.requires
+	$(MAKE) -f CMakeFiles/PhysicsEngine.dir/build.make CMakeFiles/PhysicsEngine.dir/src/AIComponents/followline.cpp.o.provides.build
+.PHONY : CMakeFiles/PhysicsEngine.dir/src/AIComponents/followline.cpp.o.provides
 
-CMakeFiles/PhysicsEngine.dir/src/AIComponents/inputcomponent.cpp.o.provides.build: CMakeFiles/PhysicsEngine.dir/src/AIComponents/inputcomponent.cpp.o
+CMakeFiles/PhysicsEngine.dir/src/AIComponents/followline.cpp.o.provides.build: CMakeFiles/PhysicsEngine.dir/src/AIComponents/followline.cpp.o
+
+
+CMakeFiles/PhysicsEngine.dir/src/AIComponents/aicomponent.cpp.o: CMakeFiles/PhysicsEngine.dir/flags.make
+CMakeFiles/PhysicsEngine.dir/src/AIComponents/aicomponent.cpp.o: /home/nino/CppProjects/Physics\ Engine/PhysicsEngine/src/AIComponents/aicomponent.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nino/CppProjects/Physics Engine/build-PhysicsEngine-Desktop-Default/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/PhysicsEngine.dir/src/AIComponents/aicomponent.cpp.o"
+	/usr/bin/g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PhysicsEngine.dir/src/AIComponents/aicomponent.cpp.o -c "/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/AIComponents/aicomponent.cpp"
+
+CMakeFiles/PhysicsEngine.dir/src/AIComponents/aicomponent.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PhysicsEngine.dir/src/AIComponents/aicomponent.cpp.i"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/AIComponents/aicomponent.cpp" > CMakeFiles/PhysicsEngine.dir/src/AIComponents/aicomponent.cpp.i
+
+CMakeFiles/PhysicsEngine.dir/src/AIComponents/aicomponent.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PhysicsEngine.dir/src/AIComponents/aicomponent.cpp.s"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/AIComponents/aicomponent.cpp" -o CMakeFiles/PhysicsEngine.dir/src/AIComponents/aicomponent.cpp.s
+
+CMakeFiles/PhysicsEngine.dir/src/AIComponents/aicomponent.cpp.o.requires:
+
+.PHONY : CMakeFiles/PhysicsEngine.dir/src/AIComponents/aicomponent.cpp.o.requires
+
+CMakeFiles/PhysicsEngine.dir/src/AIComponents/aicomponent.cpp.o.provides: CMakeFiles/PhysicsEngine.dir/src/AIComponents/aicomponent.cpp.o.requires
+	$(MAKE) -f CMakeFiles/PhysicsEngine.dir/build.make CMakeFiles/PhysicsEngine.dir/src/AIComponents/aicomponent.cpp.o.provides.build
+.PHONY : CMakeFiles/PhysicsEngine.dir/src/AIComponents/aicomponent.cpp.o.provides
+
+CMakeFiles/PhysicsEngine.dir/src/AIComponents/aicomponent.cpp.o.provides.build: CMakeFiles/PhysicsEngine.dir/src/AIComponents/aicomponent.cpp.o
+
+
+CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/ParticleEffects/particleeffect.cpp.o: CMakeFiles/PhysicsEngine.dir/flags.make
+CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/ParticleEffects/particleeffect.cpp.o: /home/nino/CppProjects/Physics\ Engine/PhysicsEngine/src/GraphicsComponents/ParticleEffects/particleeffect.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nino/CppProjects/Physics Engine/build-PhysicsEngine-Desktop-Default/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/ParticleEffects/particleeffect.cpp.o"
+	/usr/bin/g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/ParticleEffects/particleeffect.cpp.o -c "/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GraphicsComponents/ParticleEffects/particleeffect.cpp"
+
+CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/ParticleEffects/particleeffect.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/ParticleEffects/particleeffect.cpp.i"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GraphicsComponents/ParticleEffects/particleeffect.cpp" > CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/ParticleEffects/particleeffect.cpp.i
+
+CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/ParticleEffects/particleeffect.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/ParticleEffects/particleeffect.cpp.s"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GraphicsComponents/ParticleEffects/particleeffect.cpp" -o CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/ParticleEffects/particleeffect.cpp.s
+
+CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/ParticleEffects/particleeffect.cpp.o.requires:
+
+.PHONY : CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/ParticleEffects/particleeffect.cpp.o.requires
+
+CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/ParticleEffects/particleeffect.cpp.o.provides: CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/ParticleEffects/particleeffect.cpp.o.requires
+	$(MAKE) -f CMakeFiles/PhysicsEngine.dir/build.make CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/ParticleEffects/particleeffect.cpp.o.provides.build
+.PHONY : CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/ParticleEffects/particleeffect.cpp.o.provides
+
+CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/ParticleEffects/particleeffect.cpp.o.provides.build: CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/ParticleEffects/particleeffect.cpp.o
 
 
 CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/graphicsfactory.cpp.o: CMakeFiles/PhysicsEngine.dir/flags.make
 CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/graphicsfactory.cpp.o: /home/nino/CppProjects/Physics\ Engine/PhysicsEngine/src/GraphicsComponents/graphicsfactory.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nino/CppProjects/Physics Engine/build-PhysicsEngine-Desktop-Default/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/graphicsfactory.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nino/CppProjects/Physics Engine/build-PhysicsEngine-Desktop-Default/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/graphicsfactory.cpp.o"
 	/usr/bin/g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/graphicsfactory.cpp.o -c "/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GraphicsComponents/graphicsfactory.cpp"
 
 CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/graphicsfactory.cpp.i: cmake_force
@@ -177,9 +225,33 @@ CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/graphicsfactory.cpp.o.provid
 CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/graphicsfactory.cpp.o.provides.build: CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/graphicsfactory.cpp.o
 
 
+CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/graphicspoligon.cpp.o: CMakeFiles/PhysicsEngine.dir/flags.make
+CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/graphicspoligon.cpp.o: /home/nino/CppProjects/Physics\ Engine/PhysicsEngine/src/GraphicsComponents/graphicspoligon.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nino/CppProjects/Physics Engine/build-PhysicsEngine-Desktop-Default/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/graphicspoligon.cpp.o"
+	/usr/bin/g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/graphicspoligon.cpp.o -c "/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GraphicsComponents/graphicspoligon.cpp"
+
+CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/graphicspoligon.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/graphicspoligon.cpp.i"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GraphicsComponents/graphicspoligon.cpp" > CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/graphicspoligon.cpp.i
+
+CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/graphicspoligon.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/graphicspoligon.cpp.s"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GraphicsComponents/graphicspoligon.cpp" -o CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/graphicspoligon.cpp.s
+
+CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/graphicspoligon.cpp.o.requires:
+
+.PHONY : CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/graphicspoligon.cpp.o.requires
+
+CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/graphicspoligon.cpp.o.provides: CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/graphicspoligon.cpp.o.requires
+	$(MAKE) -f CMakeFiles/PhysicsEngine.dir/build.make CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/graphicspoligon.cpp.o.provides.build
+.PHONY : CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/graphicspoligon.cpp.o.provides
+
+CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/graphicspoligon.cpp.o.provides.build: CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/graphicspoligon.cpp.o
+
+
 CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/cubegraphics.cpp.o: CMakeFiles/PhysicsEngine.dir/flags.make
 CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/cubegraphics.cpp.o: /home/nino/CppProjects/Physics\ Engine/PhysicsEngine/src/GraphicsComponents/cubegraphics.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nino/CppProjects/Physics Engine/build-PhysicsEngine-Desktop-Default/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/cubegraphics.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nino/CppProjects/Physics Engine/build-PhysicsEngine-Desktop-Default/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/cubegraphics.cpp.o"
 	/usr/bin/g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/cubegraphics.cpp.o -c "/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GraphicsComponents/cubegraphics.cpp"
 
 CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/cubegraphics.cpp.i: cmake_force
@@ -201,9 +273,33 @@ CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/cubegraphics.cpp.o.provides:
 CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/cubegraphics.cpp.o.provides.build: CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/cubegraphics.cpp.o
 
 
+CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/coordinatesystem.cpp.o: CMakeFiles/PhysicsEngine.dir/flags.make
+CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/coordinatesystem.cpp.o: /home/nino/CppProjects/Physics\ Engine/PhysicsEngine/src/GraphicsComponents/coordinatesystem.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nino/CppProjects/Physics Engine/build-PhysicsEngine-Desktop-Default/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/coordinatesystem.cpp.o"
+	/usr/bin/g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/coordinatesystem.cpp.o -c "/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GraphicsComponents/coordinatesystem.cpp"
+
+CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/coordinatesystem.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/coordinatesystem.cpp.i"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GraphicsComponents/coordinatesystem.cpp" > CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/coordinatesystem.cpp.i
+
+CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/coordinatesystem.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/coordinatesystem.cpp.s"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GraphicsComponents/coordinatesystem.cpp" -o CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/coordinatesystem.cpp.s
+
+CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/coordinatesystem.cpp.o.requires:
+
+.PHONY : CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/coordinatesystem.cpp.o.requires
+
+CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/coordinatesystem.cpp.o.provides: CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/coordinatesystem.cpp.o.requires
+	$(MAKE) -f CMakeFiles/PhysicsEngine.dir/build.make CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/coordinatesystem.cpp.o.provides.build
+.PHONY : CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/coordinatesystem.cpp.o.provides
+
+CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/coordinatesystem.cpp.o.provides.build: CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/coordinatesystem.cpp.o
+
+
 CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/trianglegraphics.cpp.o: CMakeFiles/PhysicsEngine.dir/flags.make
 CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/trianglegraphics.cpp.o: /home/nino/CppProjects/Physics\ Engine/PhysicsEngine/src/GraphicsComponents/trianglegraphics.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nino/CppProjects/Physics Engine/build-PhysicsEngine-Desktop-Default/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/trianglegraphics.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nino/CppProjects/Physics Engine/build-PhysicsEngine-Desktop-Default/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/trianglegraphics.cpp.o"
 	/usr/bin/g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/trianglegraphics.cpp.o -c "/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GraphicsComponents/trianglegraphics.cpp"
 
 CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/trianglegraphics.cpp.i: cmake_force
@@ -227,7 +323,7 @@ CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/trianglegraphics.cpp.o.provi
 
 CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/rectangle.cpp.o: CMakeFiles/PhysicsEngine.dir/flags.make
 CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/rectangle.cpp.o: /home/nino/CppProjects/Physics\ Engine/PhysicsEngine/src/GraphicsComponents/rectangle.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nino/CppProjects/Physics Engine/build-PhysicsEngine-Desktop-Default/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/rectangle.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nino/CppProjects/Physics Engine/build-PhysicsEngine-Desktop-Default/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/rectangle.cpp.o"
 	/usr/bin/g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/rectangle.cpp.o -c "/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GraphicsComponents/rectangle.cpp"
 
 CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/rectangle.cpp.i: cmake_force
@@ -249,9 +345,33 @@ CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/rectangle.cpp.o.provides: CM
 CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/rectangle.cpp.o.provides.build: CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/rectangle.cpp.o
 
 
+CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/bsplajnline.cpp.o: CMakeFiles/PhysicsEngine.dir/flags.make
+CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/bsplajnline.cpp.o: /home/nino/CppProjects/Physics\ Engine/PhysicsEngine/src/GraphicsComponents/bsplajnline.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nino/CppProjects/Physics Engine/build-PhysicsEngine-Desktop-Default/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/bsplajnline.cpp.o"
+	/usr/bin/g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/bsplajnline.cpp.o -c "/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GraphicsComponents/bsplajnline.cpp"
+
+CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/bsplajnline.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/bsplajnline.cpp.i"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GraphicsComponents/bsplajnline.cpp" > CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/bsplajnline.cpp.i
+
+CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/bsplajnline.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/bsplajnline.cpp.s"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GraphicsComponents/bsplajnline.cpp" -o CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/bsplajnline.cpp.s
+
+CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/bsplajnline.cpp.o.requires:
+
+.PHONY : CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/bsplajnline.cpp.o.requires
+
+CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/bsplajnline.cpp.o.provides: CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/bsplajnline.cpp.o.requires
+	$(MAKE) -f CMakeFiles/PhysicsEngine.dir/build.make CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/bsplajnline.cpp.o.provides.build
+.PHONY : CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/bsplajnline.cpp.o.provides
+
+CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/bsplajnline.cpp.o.provides.build: CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/bsplajnline.cpp.o
+
+
 CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/sphere.cpp.o: CMakeFiles/PhysicsEngine.dir/flags.make
 CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/sphere.cpp.o: /home/nino/CppProjects/Physics\ Engine/PhysicsEngine/src/GraphicsComponents/sphere.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nino/CppProjects/Physics Engine/build-PhysicsEngine-Desktop-Default/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/sphere.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nino/CppProjects/Physics Engine/build-PhysicsEngine-Desktop-Default/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/sphere.cpp.o"
 	/usr/bin/g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/sphere.cpp.o -c "/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GraphicsComponents/sphere.cpp"
 
 CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/sphere.cpp.i: cmake_force
@@ -275,7 +395,7 @@ CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/sphere.cpp.o.provides.build:
 
 CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/graphicscomponent.cpp.o: CMakeFiles/PhysicsEngine.dir/flags.make
 CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/graphicscomponent.cpp.o: /home/nino/CppProjects/Physics\ Engine/PhysicsEngine/src/GraphicsComponents/graphicscomponent.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nino/CppProjects/Physics Engine/build-PhysicsEngine-Desktop-Default/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/graphicscomponent.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nino/CppProjects/Physics Engine/build-PhysicsEngine-Desktop-Default/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/graphicscomponent.cpp.o"
 	/usr/bin/g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/graphicscomponent.cpp.o -c "/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GraphicsComponents/graphicscomponent.cpp"
 
 CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/graphicscomponent.cpp.i: cmake_force
@@ -299,7 +419,7 @@ CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/graphicscomponent.cpp.o.prov
 
 CMakeFiles/PhysicsEngine.dir/src/PhysicsComponents/Collider/collider.cpp.o: CMakeFiles/PhysicsEngine.dir/flags.make
 CMakeFiles/PhysicsEngine.dir/src/PhysicsComponents/Collider/collider.cpp.o: /home/nino/CppProjects/Physics\ Engine/PhysicsEngine/src/PhysicsComponents/Collider/collider.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nino/CppProjects/Physics Engine/build-PhysicsEngine-Desktop-Default/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/PhysicsEngine.dir/src/PhysicsComponents/Collider/collider.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nino/CppProjects/Physics Engine/build-PhysicsEngine-Desktop-Default/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/PhysicsEngine.dir/src/PhysicsComponents/Collider/collider.cpp.o"
 	/usr/bin/g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PhysicsEngine.dir/src/PhysicsComponents/Collider/collider.cpp.o -c "/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/PhysicsComponents/Collider/collider.cpp"
 
 CMakeFiles/PhysicsEngine.dir/src/PhysicsComponents/Collider/collider.cpp.i: cmake_force
@@ -323,7 +443,7 @@ CMakeFiles/PhysicsEngine.dir/src/PhysicsComponents/Collider/collider.cpp.o.provi
 
 CMakeFiles/PhysicsEngine.dir/src/PhysicsComponents/Collider/spherecollider.cpp.o: CMakeFiles/PhysicsEngine.dir/flags.make
 CMakeFiles/PhysicsEngine.dir/src/PhysicsComponents/Collider/spherecollider.cpp.o: /home/nino/CppProjects/Physics\ Engine/PhysicsEngine/src/PhysicsComponents/Collider/spherecollider.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nino/CppProjects/Physics Engine/build-PhysicsEngine-Desktop-Default/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/PhysicsEngine.dir/src/PhysicsComponents/Collider/spherecollider.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nino/CppProjects/Physics Engine/build-PhysicsEngine-Desktop-Default/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/PhysicsEngine.dir/src/PhysicsComponents/Collider/spherecollider.cpp.o"
 	/usr/bin/g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PhysicsEngine.dir/src/PhysicsComponents/Collider/spherecollider.cpp.o -c "/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/PhysicsComponents/Collider/spherecollider.cpp"
 
 CMakeFiles/PhysicsEngine.dir/src/PhysicsComponents/Collider/spherecollider.cpp.i: cmake_force
@@ -347,7 +467,7 @@ CMakeFiles/PhysicsEngine.dir/src/PhysicsComponents/Collider/spherecollider.cpp.o
 
 CMakeFiles/PhysicsEngine.dir/src/PhysicsComponents/physicscomponent.cpp.o: CMakeFiles/PhysicsEngine.dir/flags.make
 CMakeFiles/PhysicsEngine.dir/src/PhysicsComponents/physicscomponent.cpp.o: /home/nino/CppProjects/Physics\ Engine/PhysicsEngine/src/PhysicsComponents/physicscomponent.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nino/CppProjects/Physics Engine/build-PhysicsEngine-Desktop-Default/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/PhysicsEngine.dir/src/PhysicsComponents/physicscomponent.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nino/CppProjects/Physics Engine/build-PhysicsEngine-Desktop-Default/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/PhysicsEngine.dir/src/PhysicsComponents/physicscomponent.cpp.o"
 	/usr/bin/g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PhysicsEngine.dir/src/PhysicsComponents/physicscomponent.cpp.o -c "/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/PhysicsComponents/physicscomponent.cpp"
 
 CMakeFiles/PhysicsEngine.dir/src/PhysicsComponents/physicscomponent.cpp.i: cmake_force
@@ -371,7 +491,7 @@ CMakeFiles/PhysicsEngine.dir/src/PhysicsComponents/physicscomponent.cpp.o.provid
 
 CMakeFiles/PhysicsEngine.dir/src/PhysicsComponents/rigidbody.cpp.o: CMakeFiles/PhysicsEngine.dir/flags.make
 CMakeFiles/PhysicsEngine.dir/src/PhysicsComponents/rigidbody.cpp.o: /home/nino/CppProjects/Physics\ Engine/PhysicsEngine/src/PhysicsComponents/rigidbody.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nino/CppProjects/Physics Engine/build-PhysicsEngine-Desktop-Default/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/PhysicsEngine.dir/src/PhysicsComponents/rigidbody.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nino/CppProjects/Physics Engine/build-PhysicsEngine-Desktop-Default/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/PhysicsEngine.dir/src/PhysicsComponents/rigidbody.cpp.o"
 	/usr/bin/g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PhysicsEngine.dir/src/PhysicsComponents/rigidbody.cpp.o -c "/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/PhysicsComponents/rigidbody.cpp"
 
 CMakeFiles/PhysicsEngine.dir/src/PhysicsComponents/rigidbody.cpp.i: cmake_force
@@ -395,7 +515,7 @@ CMakeFiles/PhysicsEngine.dir/src/PhysicsComponents/rigidbody.cpp.o.provides.buil
 
 CMakeFiles/PhysicsEngine.dir/main.cpp.o: CMakeFiles/PhysicsEngine.dir/flags.make
 CMakeFiles/PhysicsEngine.dir/main.cpp.o: /home/nino/CppProjects/Physics\ Engine/PhysicsEngine/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nino/CppProjects/Physics Engine/build-PhysicsEngine-Desktop-Default/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/PhysicsEngine.dir/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nino/CppProjects/Physics Engine/build-PhysicsEngine-Desktop-Default/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/PhysicsEngine.dir/main.cpp.o"
 	/usr/bin/g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PhysicsEngine.dir/main.cpp.o -c "/home/nino/CppProjects/Physics Engine/PhysicsEngine/main.cpp"
 
 CMakeFiles/PhysicsEngine.dir/main.cpp.i: cmake_force
@@ -422,11 +542,16 @@ PhysicsEngine_OBJECTS = \
 "CMakeFiles/PhysicsEngine.dir/src/GameObject/transform.cpp.o" \
 "CMakeFiles/PhysicsEngine.dir/src/GameObject/gameobject.cpp.o" \
 "CMakeFiles/PhysicsEngine.dir/src/world.cpp.o" \
-"CMakeFiles/PhysicsEngine.dir/src/AIComponents/inputcomponent.cpp.o" \
+"CMakeFiles/PhysicsEngine.dir/src/AIComponents/followline.cpp.o" \
+"CMakeFiles/PhysicsEngine.dir/src/AIComponents/aicomponent.cpp.o" \
+"CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/ParticleEffects/particleeffect.cpp.o" \
 "CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/graphicsfactory.cpp.o" \
+"CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/graphicspoligon.cpp.o" \
 "CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/cubegraphics.cpp.o" \
+"CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/coordinatesystem.cpp.o" \
 "CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/trianglegraphics.cpp.o" \
 "CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/rectangle.cpp.o" \
+"CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/bsplajnline.cpp.o" \
 "CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/sphere.cpp.o" \
 "CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/graphicscomponent.cpp.o" \
 "CMakeFiles/PhysicsEngine.dir/src/PhysicsComponents/Collider/collider.cpp.o" \
@@ -441,11 +566,16 @@ PhysicsEngine_EXTERNAL_OBJECTS =
 PhysicsEngine: CMakeFiles/PhysicsEngine.dir/src/GameObject/transform.cpp.o
 PhysicsEngine: CMakeFiles/PhysicsEngine.dir/src/GameObject/gameobject.cpp.o
 PhysicsEngine: CMakeFiles/PhysicsEngine.dir/src/world.cpp.o
-PhysicsEngine: CMakeFiles/PhysicsEngine.dir/src/AIComponents/inputcomponent.cpp.o
+PhysicsEngine: CMakeFiles/PhysicsEngine.dir/src/AIComponents/followline.cpp.o
+PhysicsEngine: CMakeFiles/PhysicsEngine.dir/src/AIComponents/aicomponent.cpp.o
+PhysicsEngine: CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/ParticleEffects/particleeffect.cpp.o
 PhysicsEngine: CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/graphicsfactory.cpp.o
+PhysicsEngine: CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/graphicspoligon.cpp.o
 PhysicsEngine: CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/cubegraphics.cpp.o
+PhysicsEngine: CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/coordinatesystem.cpp.o
 PhysicsEngine: CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/trianglegraphics.cpp.o
 PhysicsEngine: CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/rectangle.cpp.o
+PhysicsEngine: CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/bsplajnline.cpp.o
 PhysicsEngine: CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/sphere.cpp.o
 PhysicsEngine: CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/graphicscomponent.cpp.o
 PhysicsEngine: CMakeFiles/PhysicsEngine.dir/src/PhysicsComponents/Collider/collider.cpp.o
@@ -460,7 +590,7 @@ PhysicsEngine: /usr/lib64/libglut.so
 PhysicsEngine: /usr/lib64/libXmu.so
 PhysicsEngine: /usr/lib64/libXi.so
 PhysicsEngine: CMakeFiles/PhysicsEngine.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/nino/CppProjects/Physics Engine/build-PhysicsEngine-Desktop-Default/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable PhysicsEngine"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/nino/CppProjects/Physics Engine/build-PhysicsEngine-Desktop-Default/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_21) "Linking CXX executable PhysicsEngine"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/PhysicsEngine.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -471,11 +601,16 @@ CMakeFiles/PhysicsEngine.dir/build: PhysicsEngine
 CMakeFiles/PhysicsEngine.dir/requires: CMakeFiles/PhysicsEngine.dir/src/GameObject/transform.cpp.o.requires
 CMakeFiles/PhysicsEngine.dir/requires: CMakeFiles/PhysicsEngine.dir/src/GameObject/gameobject.cpp.o.requires
 CMakeFiles/PhysicsEngine.dir/requires: CMakeFiles/PhysicsEngine.dir/src/world.cpp.o.requires
-CMakeFiles/PhysicsEngine.dir/requires: CMakeFiles/PhysicsEngine.dir/src/AIComponents/inputcomponent.cpp.o.requires
+CMakeFiles/PhysicsEngine.dir/requires: CMakeFiles/PhysicsEngine.dir/src/AIComponents/followline.cpp.o.requires
+CMakeFiles/PhysicsEngine.dir/requires: CMakeFiles/PhysicsEngine.dir/src/AIComponents/aicomponent.cpp.o.requires
+CMakeFiles/PhysicsEngine.dir/requires: CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/ParticleEffects/particleeffect.cpp.o.requires
 CMakeFiles/PhysicsEngine.dir/requires: CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/graphicsfactory.cpp.o.requires
+CMakeFiles/PhysicsEngine.dir/requires: CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/graphicspoligon.cpp.o.requires
 CMakeFiles/PhysicsEngine.dir/requires: CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/cubegraphics.cpp.o.requires
+CMakeFiles/PhysicsEngine.dir/requires: CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/coordinatesystem.cpp.o.requires
 CMakeFiles/PhysicsEngine.dir/requires: CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/trianglegraphics.cpp.o.requires
 CMakeFiles/PhysicsEngine.dir/requires: CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/rectangle.cpp.o.requires
+CMakeFiles/PhysicsEngine.dir/requires: CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/bsplajnline.cpp.o.requires
 CMakeFiles/PhysicsEngine.dir/requires: CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/sphere.cpp.o.requires
 CMakeFiles/PhysicsEngine.dir/requires: CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/graphicscomponent.cpp.o.requires
 CMakeFiles/PhysicsEngine.dir/requires: CMakeFiles/PhysicsEngine.dir/src/PhysicsComponents/Collider/collider.cpp.o.requires

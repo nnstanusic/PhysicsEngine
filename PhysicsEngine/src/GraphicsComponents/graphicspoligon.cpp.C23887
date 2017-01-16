@@ -1,0 +1,18 @@
+#include "graphicspoligon.h"
+
+GraphicsPoligon::GraphicsPoligon(std::string Path, enFormat fromat)
+{
+    std::ifstream stream(Path.c_str());
+
+}
+
+
+void GraphicsComponent::Update()
+{
+
+}
+
+void GraphicsComponent::Init(Transform *transform)
+{
+
+}

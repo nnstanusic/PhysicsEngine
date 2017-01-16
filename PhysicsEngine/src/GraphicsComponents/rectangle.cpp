@@ -6,7 +6,7 @@ Rectangle::Rectangle()
 
 }
 
-void Rectangle::Update()
+void Rectangle::Draw()
 {
 
     glBegin(GL_QUADS);

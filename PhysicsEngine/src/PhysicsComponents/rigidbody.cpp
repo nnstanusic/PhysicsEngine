@@ -16,9 +16,16 @@ void Rigidbody::Bounce(glm::vec3 pointOfCollision)
 
     float speed = glm::length(velocity);
 
-    velocity = -speed * glm::normalize(pointOfCollision -
+    velocity = bounciness *speed * glm::normalize(pointOfCollision -
                                       transform_->GetPosition());
 
+
+
+}
+
+void Rigidbody::SetMass(float mass)
+{
+    this->mass = mass;
 }
 
 
@@ -82,22 +89,28 @@ void Rigidbody::Update()
 
     //TODO
     //collision with fake world box
+
+
+    if( std::abs(transform_->GetPosition()[0]) > 10)
+    {
+        float direction = transform_->GetPosition()[0];
+        direction /= -10 * std::abs(direction);
+        velocity.x *= bounciness;
+        transform_->Translate(glm::vec3(direction,0,0));
+        force.x *= bounciness;
+    }
+
     if(transform_->GetPosition()[1] <= -4)
     {
-        velocity.y *= bounciness;
+        velocity *= -bounciness;
+        velocity.y *= -1;
         transform_->Translate(glm::vec3(0,-transform_->GetPosition()[1] -4,0));
-        force.x /= 2;
-        force.z /= 2;
+
     }
 
-    if( transform_->GetPosition()[0] >= 3 )
+    if( std::abs(transform_->GetPosition()[2]) > 5 )
     {
-        velocity.x *= bounciness;
-    }
-
-    if( std::abs(transform_->GetPosition()[2]) > 0.5 )
-    {
-        //velocityX *= bounciness;
+        velocity.z *= bounciness;
     }
 }
 

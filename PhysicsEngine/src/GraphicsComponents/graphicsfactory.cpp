@@ -17,6 +17,7 @@ std::unique_ptr<GraphicsComponent> GraphicsFactory::getComponent
         return std::make_unique<CubeGraphics>();
     case triangle:
         return std::make_unique<TriangleGraphics>();
+
     default:
         return nullptr;
     }

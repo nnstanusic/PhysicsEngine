@@ -3,6 +3,7 @@ cmake_minimum_required(VERSION 2.8)
 
 include_directories(${CMAKE_SOURCE_DIR}/src/GameObject)
 include_directories(${CMAKE_SOURCE_DIR}/src/GraphicsComponents)
+include_directories(${CMAKE_SOURCE_DIR}/src/GraphicsComponents/ParticleEffects)
 include_directories(${CMAKE_SOURCE_DIR}/src/PhysicsComponents)
 include_directories(${CMAKE_SOURCE_DIR}/src/PhysicsComponents/Collider)
 include_directories(${CMAKE_SOURCE_DIR}/src/AIComponents)

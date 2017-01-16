@@ -4,25 +4,29 @@
 GameObject::GameObject(std::unique_ptr<Transform> transform)
 {
     transform_ = std::move(transform);
-    input_ = nullptr;
+    ai_ = nullptr;
     physics_ = nullptr;
     graphics_ = nullptr;
 }
 
 GameObject::GameObject(std::unique_ptr<Transform> transform,
-                       std::unique_ptr<InputComponent> input,
+                       std::unique_ptr<AIComponent> ai,
                        std::unique_ptr<PhysicsComponent> physics,
                        std::unique_ptr<GraphicsComponent> graphics)
 { 
     transform_ = std::move(transform);
     graphics_ = std::move(graphics);
     physics_ = std::move(physics);
-    input_ = std::move(input);
-    graphics_->Init(transform_.get());
-    physics_->Init(transform_.get());
+    ai_ = std::move(ai);
+
+    if(graphics_ != nullptr)
+        graphics_->Init(transform_.get());
+    if(physics_ != nullptr)
+        physics_->Init(transform_.get());
+    if(ai_ != nullptr)
+        ai_->Init(transform_.get());
+
 }
-
-
 
 
 GameObject::~GameObject()
@@ -30,24 +34,18 @@ GameObject::~GameObject()
 
 }
 
-void GameObject::PrintSomeShit()
-{
-    std::cout << "SomeShit";
-}
-
 void GameObject::Update()
 {
-    input_->Update();
+    ai_->Update();
     physics_->Update();
-
     graphics_->Update();
 
 }
 
-void GameObject::SetInputComponent
-    (std::unique_ptr<InputComponent> inputComponent)
+void GameObject::SetAIComponent
+    (std::unique_ptr<AIComponent> AIComponent)
 {
-    input_ = std::move(inputComponent);
+    ai_ = std::move(AIComponent);
 }
 
 void GameObject::SetPhysicsComponent
@@ -69,9 +67,9 @@ Transform* GameObject::GetTransformComponent()
     return transform_.get();
 }
 
-InputComponent* GameObject::GetInputComponent()
+AIComponent* GameObject::GetAIComponent()
 {
-    return input_.get();
+    return ai_.get();
 }
 
 GraphicsComponent* GameObject::GetGraphicsComponent()

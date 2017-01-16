@@ -1,9 +1,16 @@
+
 #include <GL/gl.h>
 #include <GL/glu.h>
 #include <GL/glut.h>
+
 #include "world.h"
 #include "graphicsfactory.h"
+#include "bsplajnline.h"
+#include "followline.h"
+#include "coordinatesystem.h"
 #include <iostream>
+
+#include <random>
 
 World *world;
 
@@ -12,10 +19,11 @@ void init(void)
    glClearColor (0.0, 0.0, 0.0, 0.0);
    glShadeModel (GL_SMOOTH);
 
+
    GLfloat mat_specular[] = { 1.0, 1.0, 1.0, 1.0 };
-   GLfloat mat_shininess[] = { 50.0 };
-   GLfloat light_position[] = { 1.0, 1.0, 1.0, 0.0 };
-   GLfloat light_colour[] = {0.0, 0.0, 0.5};
+   GLfloat mat_shininess[] = { 60.0 };
+   GLfloat light_position[] = { 10.0, 10.0, 10.0, 0.0 };
+   GLfloat light_colour[] = {0.0, 1.0, 0.0};
 
    glMaterialfv(GL_FRONT, GL_SPECULAR, mat_specular);
    glMaterialfv(GL_FRONT, GL_SHININESS, mat_shininess);
@@ -24,27 +32,28 @@ void init(void)
    glLightfv(GL_LIGHT0, GL_AMBIENT, light_colour);
 
 
-   GLfloat light1_ambient[] = { 0.4, 0.0, 0.0, 1.0 };
-   GLfloat light1_diffuse[] = { 1.0, 0.0, 0.0, 1.0 };
+   GLfloat light1_ambient[] = { 0.1, 0.1, 0.1, 1.0 };
+   GLfloat light1_diffuse[] = { 1.0, 1.0, 1.0, 1.0 };
    GLfloat light1_specular[] = { 1.0, 1.0, 1.0, 1.0 };
-   GLfloat light1_position[] = { 0, 0.0, 0, 1.0 };
+   GLfloat light1_position[] = { 0, 5.0, 0, 1.0 };
 
-   GLfloat spot_direction[] = { 1.0, -1.0, 0.0 };
+   GLfloat spot_direction[] = { 0.0, -1.0, 0.0 };
 
    glLightfv(GL_LIGHT1, GL_AMBIENT, light1_ambient);
    glLightfv(GL_LIGHT1, GL_DIFFUSE, light1_diffuse);
    glLightfv(GL_LIGHT1, GL_SPECULAR, light1_specular);
    glLightfv(GL_LIGHT1, GL_POSITION, light1_position);
 
-   glLightf(GL_LIGHT1, GL_SPOT_CUTOFF, 45.0);
+   glLightf(GL_LIGHT1, GL_SPOT_CUTOFF, 180.0);
    glLightfv(GL_LIGHT1, GL_SPOT_DIRECTION, spot_direction);
-   glLightf(GL_LIGHT1, GL_SPOT_EXPONENT, 2.0);
+   glLightf(GL_LIGHT1, GL_SPOT_EXPONENT, 3.0);
 
 
    glEnable(GL_LIGHTING);
-   //glEnable(GL_LIGHT1);
 
    glEnable(GL_LIGHT0);
+   glEnable(GL_LIGHT1);
+
    glEnable(GL_DEPTH_TEST);
 }
 
@@ -54,7 +63,7 @@ void display(void)
 
     glClear (GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
     glPushMatrix();
-    glTranslatef (0.0, 0.0, -20.0);
+    glTranslatef (0.0, 0.0, -30.0);
 
     world->Update();
 
@@ -69,7 +78,7 @@ void reshape (int w, int h)
     glMatrixMode (GL_PROJECTION);
     glLoadIdentity();
 
-    gluPerspective(40.0, (GLfloat) w/(GLfloat) h, 1.0, 40.0);
+    gluPerspective(40.0, (GLfloat) w/(GLfloat) h, 1.0, 55.0);
     glMatrixMode(GL_MODELVIEW);
     glLoadIdentity();
 
@@ -103,34 +112,48 @@ void timerfunc(int data)
 
 void GameObjectInit(World* world)
 {
-
-
-
+    std::default_random_engine generator;
+    std::uniform_real_distribution<float> distribution(-10,10);
     GameObject* x = new GameObject(std::make_unique<Transform>(),
-                                   std::make_unique<InputComponent>(),
+                                   nullptr,
                                    std::make_unique<PhysicsComponent>(),
-                                   GraphicsFactory::getComponent(
-                                        GraphicsFactory::sphere));
+                                   std::make_unique<Sphere>() );
 
 
     x->GetPhysicsComponent()->AddRigidbody();
     x->GetPhysicsComponent()->AddCollider(new SphereCollider());
-    x->GetTransformComponent()->Translate(glm::vec3(1,5,3));
-
+    x->GetTransformComponent()->Translate(glm::vec3(0,5,0));
 
     world->AddGameobject(x);
+
+    for (int i = 0; i < 40; ++i)
+    {
+        x = new GameObject(std::make_unique<Transform>(),
+                           nullptr,
+                           std::make_unique<PhysicsComponent>(),
+                           std::make_unique<Sphere>() );
+
+
+        x->GetPhysicsComponent()->AddRigidbody();
+        x->GetPhysicsComponent()->getRigidbody()->SetMass(50);
+        x->GetPhysicsComponent()->AddCollider(new SphereCollider());
+        x->GetTransformComponent()->Translate(
+                    glm::vec3(distribution(generator),
+                              5 * distribution(generator) + 100,
+                              distribution(generator) / 2));
+
+        world->AddGameobject(x);
+    }
 
     x = new GameObject(std::make_unique<Transform>(),
-                                       std::make_unique<InputComponent>(),
-                                       std::make_unique<PhysicsComponent>(),
-                                       GraphicsFactory::getComponent(
-                                            GraphicsFactory::sphere));
+                       nullptr,
+                       nullptr,
+                       std::make_unique<CoordinateSystem>() );
 
-    x->GetTransformComponent()->Translate(glm::vec3(1.5,2,2.5));
-    x->GetPhysicsComponent()->AddRigidbody();
-    x->GetPhysicsComponent()->AddCollider(new SphereCollider());
 
+    x->GetTransformComponent()->Translate(glm::vec3(0,-6,0));
     world->AddGameobject(x);
+
 
 }
 

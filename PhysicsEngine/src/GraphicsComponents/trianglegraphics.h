@@ -9,10 +9,7 @@ class TriangleGraphics : public virtual GraphicsComponent
 {
 public:
     TriangleGraphics();
-    void Update() override  ;
-    void Init(Transform *) override;
-private:
-    Transform* transform_;
+    void Draw() override  ;
 
 };
 

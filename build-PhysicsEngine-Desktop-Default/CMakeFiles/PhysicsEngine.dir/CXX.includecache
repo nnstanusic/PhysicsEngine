@@ -17,14 +17,48 @@ world.h
 /home/nino/CppProjects/Physics Engine/PhysicsEngine/world.h
 graphicsfactory.h
 /home/nino/CppProjects/Physics Engine/PhysicsEngine/graphicsfactory.h
+bsplajnline.h
+/home/nino/CppProjects/Physics Engine/PhysicsEngine/bsplajnline.h
+followline.h
+/home/nino/CppProjects/Physics Engine/PhysicsEngine/followline.h
+coordinatesystem.h
+/home/nino/CppProjects/Physics Engine/PhysicsEngine/coordinatesystem.h
 iostream
 -
+random
+-
 
-/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/AIComponents/inputcomponent.cpp
-inputcomponent.h
-/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/AIComponents/inputcomponent.h
+/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/AIComponents/aicomponent.cpp
+aicomponent.h
+/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/AIComponents/aicomponent.h
 
-/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/AIComponents/inputcomponent.h
+/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/AIComponents/aicomponent.h
+transform.h
+/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/AIComponents/transform.h
+
+/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/AIComponents/followline.cpp
+followline.h
+/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/AIComponents/followline.h
+
+/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/AIComponents/followline.h
+aicomponent.h
+/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/AIComponents/aicomponent.h
+vector
+-
+glm/vec3.hpp
+-
+glm/vec4.hpp
+-
+glm/mat4x4.hpp
+-
+string
+-
+fstream
+-
+iostream
+-
+math.h
+-
 
 /home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GameObject/gameobject.cpp
 gameobject.h
@@ -33,8 +67,8 @@ iostream
 -
 
 /home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GameObject/gameobject.h
-inputcomponent.h
-/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GameObject/inputcomponent.h
+aicomponent.h
+/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GameObject/aicomponent.h
 graphicscomponent.h
 /home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GameObject/graphicscomponent.h
 physicscomponent.h
@@ -50,6 +84,54 @@ transform.h
 
 /home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GameObject/transform.h
 glm/vec3.hpp
+-
+glm/geometric.hpp
+-
+iostream
+-
+
+/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GraphicsComponents/ParticleEffects/particleeffect.cpp
+particleeffect.h
+/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GraphicsComponents/ParticleEffects/particleeffect.h
+
+/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GraphicsComponents/ParticleEffects/particleeffect.h
+graphicscomponent.h
+/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GraphicsComponents/ParticleEffects/graphicscomponent.h
+
+/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GraphicsComponents/bsplajnline.cpp
+bsplajnline.h
+/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GraphicsComponents/bsplajnline.h
+
+/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GraphicsComponents/bsplajnline.h
+graphicscomponent.h
+/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GraphicsComponents/graphicscomponent.h
+GL/gl.h
+-
+glm/vec3.hpp
+-
+glm/mat4x4.hpp
+-
+vector
+-
+string
+-
+iostream
+-
+fstream
+-
+
+/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GraphicsComponents/coordinatesystem.cpp
+coordinatesystem.h
+/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GraphicsComponents/coordinatesystem.h
+
+/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GraphicsComponents/coordinatesystem.h
+graphicscomponent.h
+/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GraphicsComponents/graphicscomponent.h
+GL/glut.h
+-
+GL/gl.h
+-
+iostream
 -
 
 /home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GraphicsComponents/cubegraphics.cpp
@@ -73,12 +155,16 @@ graphicscomponent.h
 /home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GraphicsComponents/graphicscomponent.h
 transform.h
 /home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GraphicsComponents/transform.h
+GL/gl.h
+-
 
 /home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GraphicsComponents/graphicsfactory.cpp
 graphicsfactory.h
 /home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GraphicsComponents/graphicsfactory.h
 
 /home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GraphicsComponents/graphicsfactory.h
+graphicspoligon.h
+/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GraphicsComponents/graphicspoligon.h
 graphicscomponent.h
 /home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GraphicsComponents/graphicscomponent.h
 sphere.h
@@ -87,8 +173,34 @@ cubegraphics.h
 /home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GraphicsComponents/cubegraphics.h
 trianglegraphics.h
 /home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GraphicsComponents/trianglegraphics.h
+particleeffect.h
+/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GraphicsComponents/particleeffect.h
 memory
 /home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GraphicsComponents/memory
+
+/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GraphicsComponents/graphicspoligon.cpp
+graphicspoligon.h
+/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GraphicsComponents/graphicspoligon.h
+
+/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GraphicsComponents/graphicspoligon.h
+graphicscomponent.h
+/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GraphicsComponents/graphicscomponent.h
+GL/glut.h
+-
+GL/gl.h
+-
+glm/vec2.hpp
+-
+glm/vec3.hpp
+-
+string
+-
+vector
+-
+fstream
+-
+iostream
+-
 
 /home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GraphicsComponents/rectangle.cpp
 rectangle.h
@@ -115,8 +227,6 @@ GL/gl.h
 -
 glm/vec3.hpp
 -
-iostream
--
 
 /home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GraphicsComponents/trianglegraphics.cpp
 trianglegraphics.h
@@ -138,6 +248,18 @@ collider.h
 
 /home/nino/CppProjects/Physics Engine/PhysicsEngine/src/PhysicsComponents/Collider/collider.h
 glm/vec3.hpp
+-
+
+/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/PhysicsComponents/Collider/collisionresolver.h
+utility
+-
+glm/vec3.hpp
+-
+glm/geometric.hpp
+-
+spherecollider.h
+-
+gameobject.h
 -
 
 /home/nino/CppProjects/Physics Engine/PhysicsEngine/src/PhysicsComponents/Collider/spherecollider.cpp
@@ -200,6 +322,8 @@ glm/geometric.hpp
 vector
 -
 utility
+-
+collisionresolver.h
 -
 iostream
 -

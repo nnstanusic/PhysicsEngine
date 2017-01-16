@@ -9,7 +9,7 @@ class Rectangle : public virtual GraphicsComponent
 {
 public:
     Rectangle();
-    void Update() override  ;
+    void Draw() override  ;
 };
 
 #endif // RECTANGLE_H

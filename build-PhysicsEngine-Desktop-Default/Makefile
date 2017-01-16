@@ -150,32 +150,59 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/PhysicsEngine.dir/build.make CMakeFiles/PhysicsEngine.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-src/AIComponents/inputcomponent.o: src/AIComponents/inputcomponent.cpp.o
+src/AIComponents/aicomponent.o: src/AIComponents/aicomponent.cpp.o
 
-.PHONY : src/AIComponents/inputcomponent.o
+.PHONY : src/AIComponents/aicomponent.o
 
 # target to build an object file
-src/AIComponents/inputcomponent.cpp.o:
-	$(MAKE) -f CMakeFiles/PhysicsEngine.dir/build.make CMakeFiles/PhysicsEngine.dir/src/AIComponents/inputcomponent.cpp.o
-.PHONY : src/AIComponents/inputcomponent.cpp.o
+src/AIComponents/aicomponent.cpp.o:
+	$(MAKE) -f CMakeFiles/PhysicsEngine.dir/build.make CMakeFiles/PhysicsEngine.dir/src/AIComponents/aicomponent.cpp.o
+.PHONY : src/AIComponents/aicomponent.cpp.o
 
-src/AIComponents/inputcomponent.i: src/AIComponents/inputcomponent.cpp.i
+src/AIComponents/aicomponent.i: src/AIComponents/aicomponent.cpp.i
 
-.PHONY : src/AIComponents/inputcomponent.i
+.PHONY : src/AIComponents/aicomponent.i
 
 # target to preprocess a source file
-src/AIComponents/inputcomponent.cpp.i:
-	$(MAKE) -f CMakeFiles/PhysicsEngine.dir/build.make CMakeFiles/PhysicsEngine.dir/src/AIComponents/inputcomponent.cpp.i
-.PHONY : src/AIComponents/inputcomponent.cpp.i
+src/AIComponents/aicomponent.cpp.i:
+	$(MAKE) -f CMakeFiles/PhysicsEngine.dir/build.make CMakeFiles/PhysicsEngine.dir/src/AIComponents/aicomponent.cpp.i
+.PHONY : src/AIComponents/aicomponent.cpp.i
 
-src/AIComponents/inputcomponent.s: src/AIComponents/inputcomponent.cpp.s
+src/AIComponents/aicomponent.s: src/AIComponents/aicomponent.cpp.s
 
-.PHONY : src/AIComponents/inputcomponent.s
+.PHONY : src/AIComponents/aicomponent.s
 
 # target to generate assembly for a file
-src/AIComponents/inputcomponent.cpp.s:
-	$(MAKE) -f CMakeFiles/PhysicsEngine.dir/build.make CMakeFiles/PhysicsEngine.dir/src/AIComponents/inputcomponent.cpp.s
-.PHONY : src/AIComponents/inputcomponent.cpp.s
+src/AIComponents/aicomponent.cpp.s:
+	$(MAKE) -f CMakeFiles/PhysicsEngine.dir/build.make CMakeFiles/PhysicsEngine.dir/src/AIComponents/aicomponent.cpp.s
+.PHONY : src/AIComponents/aicomponent.cpp.s
+
+src/AIComponents/followline.o: src/AIComponents/followline.cpp.o
+
+.PHONY : src/AIComponents/followline.o
+
+# target to build an object file
+src/AIComponents/followline.cpp.o:
+	$(MAKE) -f CMakeFiles/PhysicsEngine.dir/build.make CMakeFiles/PhysicsEngine.dir/src/AIComponents/followline.cpp.o
+.PHONY : src/AIComponents/followline.cpp.o
+
+src/AIComponents/followline.i: src/AIComponents/followline.cpp.i
+
+.PHONY : src/AIComponents/followline.i
+
+# target to preprocess a source file
+src/AIComponents/followline.cpp.i:
+	$(MAKE) -f CMakeFiles/PhysicsEngine.dir/build.make CMakeFiles/PhysicsEngine.dir/src/AIComponents/followline.cpp.i
+.PHONY : src/AIComponents/followline.cpp.i
+
+src/AIComponents/followline.s: src/AIComponents/followline.cpp.s
+
+.PHONY : src/AIComponents/followline.s
+
+# target to generate assembly for a file
+src/AIComponents/followline.cpp.s:
+	$(MAKE) -f CMakeFiles/PhysicsEngine.dir/build.make CMakeFiles/PhysicsEngine.dir/src/AIComponents/followline.cpp.s
+.PHONY : src/AIComponents/followline.cpp.s
 
 src/GameObject/gameobject.o: src/GameObject/gameobject.cpp.o
 
@@ -230,6 +257,87 @@ src/GameObject/transform.s: src/GameObject/transform.cpp.s
 src/GameObject/transform.cpp.s:
 	$(MAKE) -f CMakeFiles/PhysicsEngine.dir/build.make CMakeFiles/PhysicsEngine.dir/src/GameObject/transform.cpp.s
 .PHONY : src/GameObject/transform.cpp.s
+
+src/GraphicsComponents/ParticleEffects/particleeffect.o: src/GraphicsComponents/ParticleEffects/particleeffect.cpp.o
+
+.PHONY : src/GraphicsComponents/ParticleEffects/particleeffect.o
+
+# target to build an object file
+src/GraphicsComponents/ParticleEffects/particleeffect.cpp.o:
+	$(MAKE) -f CMakeFiles/PhysicsEngine.dir/build.make CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/ParticleEffects/particleeffect.cpp.o
+.PHONY : src/GraphicsComponents/ParticleEffects/particleeffect.cpp.o
+
+src/GraphicsComponents/ParticleEffects/particleeffect.i: src/GraphicsComponents/ParticleEffects/particleeffect.cpp.i
+
+.PHONY : src/GraphicsComponents/ParticleEffects/particleeffect.i
+
+# target to preprocess a source file
+src/GraphicsComponents/ParticleEffects/particleeffect.cpp.i:
+	$(MAKE) -f CMakeFiles/PhysicsEngine.dir/build.make CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/ParticleEffects/particleeffect.cpp.i
+.PHONY : src/GraphicsComponents/ParticleEffects/particleeffect.cpp.i
+
+src/GraphicsComponents/ParticleEffects/particleeffect.s: src/GraphicsComponents/ParticleEffects/particleeffect.cpp.s
+
+.PHONY : src/GraphicsComponents/ParticleEffects/particleeffect.s
+
+# target to generate assembly for a file
+src/GraphicsComponents/ParticleEffects/particleeffect.cpp.s:
+	$(MAKE) -f CMakeFiles/PhysicsEngine.dir/build.make CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/ParticleEffects/particleeffect.cpp.s
+.PHONY : src/GraphicsComponents/ParticleEffects/particleeffect.cpp.s
+
+src/GraphicsComponents/bsplajnline.o: src/GraphicsComponents/bsplajnline.cpp.o
+
+.PHONY : src/GraphicsComponents/bsplajnline.o
+
+# target to build an object file
+src/GraphicsComponents/bsplajnline.cpp.o:
+	$(MAKE) -f CMakeFiles/PhysicsEngine.dir/build.make CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/bsplajnline.cpp.o
+.PHONY : src/GraphicsComponents/bsplajnline.cpp.o
+
+src/GraphicsComponents/bsplajnline.i: src/GraphicsComponents/bsplajnline.cpp.i
+
+.PHONY : src/GraphicsComponents/bsplajnline.i
+
+# target to preprocess a source file
+src/GraphicsComponents/bsplajnline.cpp.i:
+	$(MAKE) -f CMakeFiles/PhysicsEngine.dir/build.make CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/bsplajnline.cpp.i
+.PHONY : src/GraphicsComponents/bsplajnline.cpp.i
+
+src/GraphicsComponents/bsplajnline.s: src/GraphicsComponents/bsplajnline.cpp.s
+
+.PHONY : src/GraphicsComponents/bsplajnline.s
+
+# target to generate assembly for a file
+src/GraphicsComponents/bsplajnline.cpp.s:
+	$(MAKE) -f CMakeFiles/PhysicsEngine.dir/build.make CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/bsplajnline.cpp.s
+.PHONY : src/GraphicsComponents/bsplajnline.cpp.s
+
+src/GraphicsComponents/coordinatesystem.o: src/GraphicsComponents/coordinatesystem.cpp.o
+
+.PHONY : src/GraphicsComponents/coordinatesystem.o
+
+# target to build an object file
+src/GraphicsComponents/coordinatesystem.cpp.o:
+	$(MAKE) -f CMakeFiles/PhysicsEngine.dir/build.make CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/coordinatesystem.cpp.o
+.PHONY : src/GraphicsComponents/coordinatesystem.cpp.o
+
+src/GraphicsComponents/coordinatesystem.i: src/GraphicsComponents/coordinatesystem.cpp.i
+
+.PHONY : src/GraphicsComponents/coordinatesystem.i
+
+# target to preprocess a source file
+src/GraphicsComponents/coordinatesystem.cpp.i:
+	$(MAKE) -f CMakeFiles/PhysicsEngine.dir/build.make CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/coordinatesystem.cpp.i
+.PHONY : src/GraphicsComponents/coordinatesystem.cpp.i
+
+src/GraphicsComponents/coordinatesystem.s: src/GraphicsComponents/coordinatesystem.cpp.s
+
+.PHONY : src/GraphicsComponents/coordinatesystem.s
+
+# target to generate assembly for a file
+src/GraphicsComponents/coordinatesystem.cpp.s:
+	$(MAKE) -f CMakeFiles/PhysicsEngine.dir/build.make CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/coordinatesystem.cpp.s
+.PHONY : src/GraphicsComponents/coordinatesystem.cpp.s
 
 src/GraphicsComponents/cubegraphics.o: src/GraphicsComponents/cubegraphics.cpp.o
 
@@ -311,6 +419,33 @@ src/GraphicsComponents/graphicsfactory.s: src/GraphicsComponents/graphicsfactory
 src/GraphicsComponents/graphicsfactory.cpp.s:
 	$(MAKE) -f CMakeFiles/PhysicsEngine.dir/build.make CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/graphicsfactory.cpp.s
 .PHONY : src/GraphicsComponents/graphicsfactory.cpp.s
+
+src/GraphicsComponents/graphicspoligon.o: src/GraphicsComponents/graphicspoligon.cpp.o
+
+.PHONY : src/GraphicsComponents/graphicspoligon.o
+
+# target to build an object file
+src/GraphicsComponents/graphicspoligon.cpp.o:
+	$(MAKE) -f CMakeFiles/PhysicsEngine.dir/build.make CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/graphicspoligon.cpp.o
+.PHONY : src/GraphicsComponents/graphicspoligon.cpp.o
+
+src/GraphicsComponents/graphicspoligon.i: src/GraphicsComponents/graphicspoligon.cpp.i
+
+.PHONY : src/GraphicsComponents/graphicspoligon.i
+
+# target to preprocess a source file
+src/GraphicsComponents/graphicspoligon.cpp.i:
+	$(MAKE) -f CMakeFiles/PhysicsEngine.dir/build.make CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/graphicspoligon.cpp.i
+.PHONY : src/GraphicsComponents/graphicspoligon.cpp.i
+
+src/GraphicsComponents/graphicspoligon.s: src/GraphicsComponents/graphicspoligon.cpp.s
+
+.PHONY : src/GraphicsComponents/graphicspoligon.s
+
+# target to generate assembly for a file
+src/GraphicsComponents/graphicspoligon.cpp.s:
+	$(MAKE) -f CMakeFiles/PhysicsEngine.dir/build.make CMakeFiles/PhysicsEngine.dir/src/GraphicsComponents/graphicspoligon.cpp.s
+.PHONY : src/GraphicsComponents/graphicspoligon.cpp.s
 
 src/GraphicsComponents/rectangle.o: src/GraphicsComponents/rectangle.cpp.o
 
@@ -540,15 +675,27 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... src/AIComponents/inputcomponent.o"
-	@echo "... src/AIComponents/inputcomponent.i"
-	@echo "... src/AIComponents/inputcomponent.s"
+	@echo "... src/AIComponents/aicomponent.o"
+	@echo "... src/AIComponents/aicomponent.i"
+	@echo "... src/AIComponents/aicomponent.s"
+	@echo "... src/AIComponents/followline.o"
+	@echo "... src/AIComponents/followline.i"
+	@echo "... src/AIComponents/followline.s"
 	@echo "... src/GameObject/gameobject.o"
 	@echo "... src/GameObject/gameobject.i"
 	@echo "... src/GameObject/gameobject.s"
 	@echo "... src/GameObject/transform.o"
 	@echo "... src/GameObject/transform.i"
 	@echo "... src/GameObject/transform.s"
+	@echo "... src/GraphicsComponents/ParticleEffects/particleeffect.o"
+	@echo "... src/GraphicsComponents/ParticleEffects/particleeffect.i"
+	@echo "... src/GraphicsComponents/ParticleEffects/particleeffect.s"
+	@echo "... src/GraphicsComponents/bsplajnline.o"
+	@echo "... src/GraphicsComponents/bsplajnline.i"
+	@echo "... src/GraphicsComponents/bsplajnline.s"
+	@echo "... src/GraphicsComponents/coordinatesystem.o"
+	@echo "... src/GraphicsComponents/coordinatesystem.i"
+	@echo "... src/GraphicsComponents/coordinatesystem.s"
 	@echo "... src/GraphicsComponents/cubegraphics.o"
 	@echo "... src/GraphicsComponents/cubegraphics.i"
 	@echo "... src/GraphicsComponents/cubegraphics.s"
@@ -558,6 +705,9 @@ help:
 	@echo "... src/GraphicsComponents/graphicsfactory.o"
 	@echo "... src/GraphicsComponents/graphicsfactory.i"
 	@echo "... src/GraphicsComponents/graphicsfactory.s"
+	@echo "... src/GraphicsComponents/graphicspoligon.o"
+	@echo "... src/GraphicsComponents/graphicspoligon.i"
+	@echo "... src/GraphicsComponents/graphicspoligon.s"
 	@echo "... src/GraphicsComponents/rectangle.o"
 	@echo "... src/GraphicsComponents/rectangle.i"
 	@echo "... src/GraphicsComponents/rectangle.s"

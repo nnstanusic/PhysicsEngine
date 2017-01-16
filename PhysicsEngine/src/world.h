@@ -8,6 +8,7 @@
 #include <glm/geometric.hpp>
 #include <vector>
 #include <utility>
+#include <collisionresolver.h>
 
 #include <iostream>
 #include <typeinfo>
@@ -21,16 +22,11 @@ public:
     void RemoveGameobject(GameObject *);
     void Update(void);
 
-    std::pair<bool, glm::vec3>
-        resolveCollision(Collider* , Collider*,
-                         Transform *, Transform*);
-    std::pair<bool, glm::vec3>
-        resolveCollision(SphereCollider*, SphereCollider*,
-                         Transform*, Transform*);
+
 private:
     std::vector<GameObject*> objects_;
     std::vector<GraphicsComponent*> graphicsComponents_;
-    std::vector<InputComponent*> inputComponents_;
+    std::vector<AIComponent*> AIComponents_;
     std::vector<PhysicsComponent*> physicsComponents_;
 };
 

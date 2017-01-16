@@ -48,6 +48,7 @@
             <Add directory="/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/AIComponents" />
             <Add directory="/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GameObject" />
             <Add directory="/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GraphicsComponents" />
+            <Add directory="/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GraphicsComponents/ParticleEffects" />
             <Add directory="/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/PhysicsComponents" />
             <Add directory="/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/PhysicsComponents/Collider" />
             <Add directory="/usr/include" />
@@ -76,6 +77,7 @@
             <Add directory="/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/AIComponents" />
             <Add directory="/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GameObject" />
             <Add directory="/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GraphicsComponents" />
+            <Add directory="/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GraphicsComponents/ParticleEffects" />
             <Add directory="/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/PhysicsComponents" />
             <Add directory="/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/PhysicsComponents/Collider" />
             <Add directory="/usr/include" />
@@ -97,10 +99,16 @@
       <Unit filename="/home/nino/CppProjects/Physics Engine/PhysicsEngine/main.cpp">
          <Option target="PhysicsEngine"/>
       </Unit>
-      <Unit filename="/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/AIComponents/inputcomponent.cpp">
+      <Unit filename="/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/AIComponents/aicomponent.cpp">
          <Option target="PhysicsEngine"/>
       </Unit>
-      <Unit filename="/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/AIComponents/inputcomponent.h">
+      <Unit filename="/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/AIComponents/aicomponent.h">
+         <Option target="PhysicsEngine"/>
+      </Unit>
+      <Unit filename="/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/AIComponents/followline.cpp">
+         <Option target="PhysicsEngine"/>
+      </Unit>
+      <Unit filename="/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/AIComponents/followline.h">
          <Option target="PhysicsEngine"/>
       </Unit>
       <Unit filename="/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GameObject/gameobject.cpp">
@@ -113,6 +121,24 @@
          <Option target="PhysicsEngine"/>
       </Unit>
       <Unit filename="/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GameObject/transform.h">
+         <Option target="PhysicsEngine"/>
+      </Unit>
+      <Unit filename="/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GraphicsComponents/ParticleEffects/particleeffect.cpp">
+         <Option target="PhysicsEngine"/>
+      </Unit>
+      <Unit filename="/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GraphicsComponents/ParticleEffects/particleeffect.h">
+         <Option target="PhysicsEngine"/>
+      </Unit>
+      <Unit filename="/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GraphicsComponents/bsplajnline.cpp">
+         <Option target="PhysicsEngine"/>
+      </Unit>
+      <Unit filename="/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GraphicsComponents/bsplajnline.h">
+         <Option target="PhysicsEngine"/>
+      </Unit>
+      <Unit filename="/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GraphicsComponents/coordinatesystem.cpp">
+         <Option target="PhysicsEngine"/>
+      </Unit>
+      <Unit filename="/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GraphicsComponents/coordinatesystem.h">
          <Option target="PhysicsEngine"/>
       </Unit>
       <Unit filename="/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GraphicsComponents/cubegraphics.cpp">
@@ -131,6 +157,12 @@
          <Option target="PhysicsEngine"/>
       </Unit>
       <Unit filename="/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GraphicsComponents/graphicsfactory.h">
+         <Option target="PhysicsEngine"/>
+      </Unit>
+      <Unit filename="/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GraphicsComponents/graphicspoligon.cpp">
+         <Option target="PhysicsEngine"/>
+      </Unit>
+      <Unit filename="/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GraphicsComponents/graphicspoligon.h">
          <Option target="PhysicsEngine"/>
       </Unit>
       <Unit filename="/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GraphicsComponents/rectangle.cpp">

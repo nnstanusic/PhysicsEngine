@@ -11,10 +11,8 @@ public:
     CubeGraphics();
 
     // GraphicsComponent interface
-    void Update() override  ;
-    void Init(Transform *) override;
-private:
-    Transform* transform_;
+    void Draw() override  ;
+
 };
 
 #endif // CUBEGRAPHICS_H

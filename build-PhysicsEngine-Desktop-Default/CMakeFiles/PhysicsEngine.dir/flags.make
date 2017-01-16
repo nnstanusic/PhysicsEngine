@@ -6,5 +6,5 @@ CXX_FLAGS =
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I"/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GameObject" -I"/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GraphicsComponents" -I"/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/PhysicsComponents" -I"/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/PhysicsComponents/Collider" -I"/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/AIComponents" -I"/home/nino/CppProjects/Physics Engine/PhysicsEngine/src" 
+CXX_INCLUDES = -I"/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GameObject" -I"/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GraphicsComponents" -I"/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/GraphicsComponents/ParticleEffects" -I"/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/PhysicsComponents" -I"/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/PhysicsComponents/Collider" -I"/home/nino/CppProjects/Physics Engine/PhysicsEngine/src/AIComponents" -I"/home/nino/CppProjects/Physics Engine/PhysicsEngine/src" 
 
